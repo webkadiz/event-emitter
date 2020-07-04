@@ -1,5 +1,5 @@
 {
-  "name": "event-emitter",
+  "name": "@webkadiz/event-emitter",
   "version": "0.0.1",
   "description": "Event emitter for browser and node",
   "main": "index.js",
@@ -10,8 +10,16 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Event emitter",
+    "EventEmitter",
+    "Event emitter browser",
+    "Browser"
+  ],
+  "author": {
+    "name": "Tkachenko Vladislav",
+    "email": "webkadiz@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",

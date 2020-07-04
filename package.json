@@ -1,6 +1,6 @@
 {
   "name": "event-emitter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Event emitter for browser and node",
   "main": "index.js",
   "directories": {

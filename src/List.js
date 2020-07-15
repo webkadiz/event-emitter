@@ -28,6 +28,13 @@ module.exports = class List {
     else return false
   }
 
+  getOne(item) {
+    const returnedItems = this.get(item)
+
+    if (returnedItems) return returnedItems[0]
+    else return false
+  }
+
   getAll() {
     return this._list
   }

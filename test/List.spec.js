@@ -58,6 +58,30 @@ describe("List", function() {
       list.add(2).add(3).add(4)
       assert.deepEqual(list.getAll(), [2, 3, 4])
     })
+
+    it(`getOne: If exists equal elements, then return first one element,
+      don't array unlike 'get' method`, () => {
+      // Arrange
+      const list = new List([1, 1, 2, 3])
+
+      // Act
+      const elem = list.getOne(1)
+
+      // Assert
+      assert.equal(elem, 1)
+    })
+
+    it(`getOne: If the item is not found return false`, () => {
+      // Arrange
+      const list = new List([2, 3])
+
+      // Act
+      const elem = list.getOne(1)
+
+      // Assert
+      assert.isFalse(elem)
+    })
+
   })
 
   describe("Remove and clear", function() {

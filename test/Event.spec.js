@@ -1,6 +1,6 @@
 const { assert } = require("chai");
 const Event = require("../src/Event")
-const List = require("../src/List")
+const List = require("@webkadiz/utils").List
 
 describe("Event", function () {
   let event, res;

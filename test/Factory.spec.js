@@ -1,7 +1,7 @@
 const { assert } = require("chai");
 const Factory = require('../src/Factory')
 const Event = require("../src/Event")
-const List = require("../src/List")
+const List = require("@webkadiz/utils").List
 
 describe('Factory', function() {
 

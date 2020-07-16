@@ -2,7 +2,7 @@ const { assert } = require("chai")
 const EventEmitter = require("../src/EventEmitter")
 const Factory = require("../src/Factory")
 const Event = require("../src/Event")
-const List = require("../src/List")
+const List = require("@webkadiz/utils").List
 
 const ERROR_CLASS_NAME = "EventEmitterError";
 

@@ -1,6 +1,6 @@
 {
   "name": "@webkadiz/event-emitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Event emitter for browser and node",
   "main": "index.js",
   "directories": {

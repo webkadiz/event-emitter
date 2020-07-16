@@ -24,5 +24,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "@webkadiz/utils": "^1.0.0"
   }
 }
